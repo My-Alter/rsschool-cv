@@ -1,3 +1,8 @@
 # Mihey Bobryk
 
-## My contact info
+## My Contact Info:
+* Phone:
+* E-mail:
+* GitHub:
+
+## About Me
