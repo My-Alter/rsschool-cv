@@ -1,2 +1,2 @@
 # rsschool-cv 
-https://github.com/My-Alter/rsschool-cv.git
+https://My-Alter.github.io/rsschool-cv/cv
