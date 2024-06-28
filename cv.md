@@ -6,3 +6,7 @@
 * GitHub:
 
 ## About Me
+## My Skills
+## Code Examples
+## Education
+## Languages
