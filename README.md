@@ -1,2 +1,2 @@
 # rsschool-cv 
-https://My-Alter/rsschool-cv/cv
+https://My-Alter.github.io/rsschool-cv/
