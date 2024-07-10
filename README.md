@@ -1,4 +1,4 @@
 # rsschool-cv
-This CV by markdown was build using [GitHub Pages](https://My-Alter.github.io/rsschool-cv/cv)
+https://My-Alter.github.io/rsschool-cv/cv
 
-This site was build using [GitHub Pages](https://My-Alter.github.io/rsschool-cv/)
+https://My-Alter.github.io/rsschool-cv/
