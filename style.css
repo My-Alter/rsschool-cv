@@ -1,0 +1,155 @@
+@font-face {
+  font-family: 'NotoSansDisplay';
+  src: url('./assets/fonts/NotoSansDisplay-Light.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'NotoSansDisplay';
+  src: url('./assets/fonts/NotoSansDisplay-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'NotoSansDisplay';
+  font-size: 18px;
+  display: flex;
+  font-weight: 300;
+  flex-direction: column;
+  justify-content: space-between;
+  line-height: 1.5;
+  color: #090909;
+  margin: 10px 20px;
+  background-color: #d1dfd0;
+}
+
+h1 {
+  font-family: "NotoSansDisplay";
+  font-size: 45px;
+  font-weight: 400;
+}
+
+.footer,
+.header {
+  background-color: #cfc4c4;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+}
+
+section#profile.section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 50%;
+}
+
+.section-title {
+  font-family: 'NotoSansDisplay';
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #d59d9d;
+  padding-left: 5px;
+}
+
+a {
+  font-family: 'NotoSansDisplay';
+  font-size: 18px;
+  font-weight: bold;
+  color: #3b8fe8;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+a:hover {
+  color: #af3535;
+  cursor: pointer;
+}
+
+.nav-item a {
+  font-family: 'NotoSansDisplay';
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #3b8fe8;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.nav-item a:hover {
+  color: #af3535;
+  cursor: pointer;
+}
+
+.footer-text{
+  margin-left: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.footer-text a {
+  margin-left: 25px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.footer-link img {
+  margin-right: 25px;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+  .nav-list {
+    display: grid;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: center;
+    justify-items: center;
+  }
+
+  a.nav-link {
+    font-size: larger;
+  }
+} 
