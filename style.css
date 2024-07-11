@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'NotoSansDisplay';
-  src: url('./assets/fonts/NotoSansDisplay-Light.ttf') format('truetype');
+  src: url('./assets/fonst/NotoSansDisplay-Light.ttf') format('truetype');
   font-style: normal;
   font-weight: 300;
 }
 
 @font-face {
   font-family: 'NotoSansDisplay';
-  src: url('./assets/fonts/NotoSansDisplay-Regular.ttf') format('truetype');
+  src: url('./assets/fonst/NotoSansDisplay-Regular.ttf') format('truetype');
   font-style: normal;
   font-weight: 400;
 }
@@ -19,8 +19,8 @@
 body {
   font-family: 'NotoSansDisplay';
   font-size: 18px;
-  display: flex;
   font-weight: 300;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
   line-height: 1.5;
@@ -114,7 +114,7 @@ a:hover {
   cursor: pointer;
 }
 
-.footer-text{
+.footer-text {
   margin-left: 25px;
   display: flex;
   justify-content: space-between;
@@ -141,6 +141,7 @@ a:hover {
   .section {
     width: 100%;
   }
+
   .nav-list {
     display: grid;
     align-items: center;
@@ -152,4 +153,4 @@ a:hover {
   a.nav-link {
     font-size: larger;
   }
-} 
+}
