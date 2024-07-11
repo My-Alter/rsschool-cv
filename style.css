@@ -114,7 +114,7 @@ a:hover {
   cursor: pointer;
 }
 
-.footer-text{
+.footer-text {
   margin-left: 25px;
   display: flex;
   justify-content: space-between;
@@ -141,6 +141,7 @@ a:hover {
   .section {
     width: 100%;
   }
+
   .nav-list {
     display: grid;
     align-items: center;
@@ -152,4 +153,4 @@ a:hover {
   a.nav-link {
     font-size: larger;
   }
-} 
+}
